@@ -143,7 +143,7 @@ const Generator = () => {
     try {
       // The API endpoint of the backend server you just created
       // NOTE: This will not work in a live environment without a CORS-enabled server
-      const response = await fetch('http://localhost:3001/api/generate-proposal', {
+      const response = await fetch('https://proposal-ai-backend.vercel.app/api/generate-proposal', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

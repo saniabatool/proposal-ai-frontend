@@ -163,7 +163,7 @@ const Generator = () => {
 
     try {
       // The frontend now makes a POST request to your local backend server
-      const response = await fetch('http://localhost:3001/api/generate-proposal', {
+      const response = await fetch('https://proposal-ai-backend.vercel.app/api/generate-proposal', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
